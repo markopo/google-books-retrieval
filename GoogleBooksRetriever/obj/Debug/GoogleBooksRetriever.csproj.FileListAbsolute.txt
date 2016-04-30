@@ -1,0 +1,7 @@
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksRetriever\bin\Debug\GoogleBooksRetriever.dll
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksRetriever\bin\Debug\GoogleBooksRetriever.pdb
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksRetriever\bin\Debug\Newtonsoft.Json.dll
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksRetriever\bin\Debug\Newtonsoft.Json.xml
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksRetriever\obj\Debug\GoogleBooksRetriever.dll
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksRetriever\obj\Debug\GoogleBooksRetriever.pdb
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksRetriever\obj\Debug\GoogleBooksRetriever.csprojResolveAssemblyReference.cache

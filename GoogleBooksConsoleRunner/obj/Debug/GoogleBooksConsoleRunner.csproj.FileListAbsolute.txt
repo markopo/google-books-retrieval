@@ -1,0 +1,10 @@
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksConsoleRunner\bin\Debug\GoogleBooksConsoleRunner.exe.config
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksConsoleRunner\bin\Debug\GoogleBooksConsoleRunner.exe
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksConsoleRunner\bin\Debug\GoogleBooksConsoleRunner.pdb
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksConsoleRunner\obj\Debug\GoogleBooksConsoleRunner.csprojResolveAssemblyReference.cache
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksConsoleRunner\obj\Debug\GoogleBooksConsoleRunner.exe
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksConsoleRunner\obj\Debug\GoogleBooksConsoleRunner.pdb
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksConsoleRunner\bin\Debug\GoogleBooksRetriever.dll
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksConsoleRunner\bin\Debug\Newtonsoft.Json.dll
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksConsoleRunner\bin\Debug\GoogleBooksRetriever.pdb
+c:\users\marko\documents\visual studio 2015\Projects\GoogleBooksRetriever\GoogleBooksConsoleRunner\bin\Debug\Newtonsoft.Json.xml

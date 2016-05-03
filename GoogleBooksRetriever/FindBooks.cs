@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Text.RegularExpressions;
+using Newtonsoft.Json.Linq; 
 
 namespace GoogleBooksRetriever
 {
@@ -82,17 +83,36 @@ namespace GoogleBooksRetriever
                             }
                         }
 
+                        var categories = new List<string>();
+                        if (volumeInfo.categories != null)
+                        {
+                            foreach(var cat in volumeInfo.categories)
+                            {
+                                categories.Add(cat.Value); 
+                            }
+                        }
+
+                        var authors = new List<string>();
+                        if (volumeInfo.authors != null)
+                        {
+                            foreach (var aut in volumeInfo.authors)
+                            {
+                                authors.Add(aut.Value);
+                            }
+                        }
+
+
                         var gb = new GoogleBook
                         {
                             Title = volumeInfo.title, 
                             SubTitle = volumeInfo.subtitle != null ? volumeInfo.subtitle : "", 
-                            Authors = volumeInfo.authors as string[],
+                            Authors =  authors.ToArray(),
                             Publisher = volumeInfo.publisher != null ? volumeInfo.publisher : "",
                             PublishedDate = volumeInfo.publishedDate != null ? volumeInfo.publishedDate : "", 
                             Description = volumeInfo.description != null ? volumeInfo.description : "", 
                             PageCount = volumeInfo.pageCount != null ? volumeInfo.pageCount : "", 
                             PrintType = volumeInfo.printType != null ? volumeInfo.printType : "", 
-                            Categories = volumeInfo.categories as string[], 
+                            Categories = categories.ToArray(), 
                             AverageRating = volumeInfo.averageRating != null ? volumeInfo.averageRating : "0.0", 
                             ThumbNail = volumeInfo.imageLinks != null && volumeInfo.imageLinks.thumbnail != null ? volumeInfo.imageLinks.thumbnail : "",
                             Language = volumeInfo.language != null ? volumeInfo.language : "", 
